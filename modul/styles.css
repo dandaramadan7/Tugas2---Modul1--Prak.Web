@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a:hover {
+    color: #50c878;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #50c878;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #3da063;
+}
+
+/* Articles Section */
+.articles-section {
+    padding: 50px 20px;
+}
+
+.articles-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    background-color: #1e1e1e;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Upcoming Games Section */
+.upcoming-games {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+}
+
+.upcoming-games h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game {
+    width: 40%;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.game h3 {
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
